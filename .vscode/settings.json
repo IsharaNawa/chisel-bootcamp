@@ -1,5 +1,7 @@
 {
     "files.watcherExclude": {
         "**/target": true
-    }
+    },
+    "notebook.output.textLineLimit": 1000,
+    "notebook.output.minimalErrorRendering": true
 }
