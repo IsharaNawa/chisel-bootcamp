@@ -1,11 +1,66 @@
 [
   {
     "class":"firrtl.transforms.CombinationalPath",
-    "sink":"~Mac|Mac>io_out",
+    "sink":"~Mac|Mac>io_out_imag_magnitude",
     "sources":[
-      "~Mac|Mac>io_c",
-      "~Mac|Mac>io_a",
-      "~Mac|Mac>io_b"
+      "~Mac|Mac>io_c_imag_sign",
+      "~Mac|Mac>io_c_imag_magnitude",
+      "~Mac|Mac>io_a_real_sign",
+      "~Mac|Mac>io_b_real_sign",
+      "~Mac|Mac>io_b_real_magnitude",
+      "~Mac|Mac>io_a_real_magnitude",
+      "~Mac|Mac>io_a_imag_sign",
+      "~Mac|Mac>io_b_imag_sign",
+      "~Mac|Mac>io_a_imag_magnitude",
+      "~Mac|Mac>io_b_imag_magnitude"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Mac|Mac>io_out_imag_sign",
+    "sources":[
+      "~Mac|Mac>io_c_imag_sign",
+      "~Mac|Mac>io_c_imag_magnitude",
+      "~Mac|Mac>io_a_real_sign",
+      "~Mac|Mac>io_b_real_sign",
+      "~Mac|Mac>io_b_real_magnitude",
+      "~Mac|Mac>io_a_real_magnitude",
+      "~Mac|Mac>io_a_imag_sign",
+      "~Mac|Mac>io_b_imag_sign",
+      "~Mac|Mac>io_a_imag_magnitude",
+      "~Mac|Mac>io_b_imag_magnitude"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Mac|Mac>io_out_real_magnitude",
+    "sources":[
+      "~Mac|Mac>io_c_real_sign",
+      "~Mac|Mac>io_c_real_magnitude",
+      "~Mac|Mac>io_a_real_sign",
+      "~Mac|Mac>io_a_real_magnitude",
+      "~Mac|Mac>io_b_imag_sign",
+      "~Mac|Mac>io_b_imag_magnitude",
+      "~Mac|Mac>io_a_imag_sign",
+      "~Mac|Mac>io_b_real_sign",
+      "~Mac|Mac>io_b_real_magnitude",
+      "~Mac|Mac>io_a_imag_magnitude"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Mac|Mac>io_out_real_sign",
+    "sources":[
+      "~Mac|Mac>io_c_real_sign",
+      "~Mac|Mac>io_c_real_magnitude",
+      "~Mac|Mac>io_a_real_sign",
+      "~Mac|Mac>io_a_real_magnitude",
+      "~Mac|Mac>io_b_imag_sign",
+      "~Mac|Mac>io_b_imag_magnitude",
+      "~Mac|Mac>io_a_imag_sign",
+      "~Mac|Mac>io_b_real_sign",
+      "~Mac|Mac>io_b_real_magnitude",
+      "~Mac|Mac>io_a_imag_magnitude"
     ]
   },
   {
